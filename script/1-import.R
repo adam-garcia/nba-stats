@@ -55,7 +55,7 @@ names(seasons) <- map_chr(seasons, function(s){
   str_sub(s, 1, 4)
 })
 
-system.time({
+
 # Download roster data
 dir.create("data/in")
 nba_teams %>%  
@@ -79,7 +79,6 @@ nba_teams %>%
       Sys.sleep(0.15) 
     })
   })
-})
 
 # Parsing JSON data and aggregating into data frame
 nba_rosters_in <- nba_teams %>%
@@ -125,8 +124,6 @@ nba_rosters <- nba_rosters_in %>%
   distinct(player_id, season, .keep_all = T) %>% 
   group_by(teamid, season) %>%
   mutate(team_players = n())
-
-
 
   
 ##  ............................................................................
