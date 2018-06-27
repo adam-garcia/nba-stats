@@ -4,4 +4,4 @@
 .Ruserdata
 .DS_Store
 sandbox/
-data/in/**/**/*.json
+data/in/
