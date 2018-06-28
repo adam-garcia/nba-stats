@@ -25,6 +25,3 @@ preview <- function(tbl){
     kableExtra::kable_styling() %>%
     kableExtra::scroll_box(width = "100%")
 }
-
-# Program Flow
-source("./script/1-import_tidy.R")
