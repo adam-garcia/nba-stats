@@ -1,0 +1,31 @@
+abbr,city,code,conference,displayAbbr,displayConference,division,teamid,name,color,color2
+ATL,Atlanta,hawks,Eastern,ATL,Eastern,Southeast,1610612737,Hawks,E2373E,002A5C
+BOS,Boston,celtics,Eastern,BOS,Eastern,Atlantic,1610612738,Celtics,007239,AE8445
+BKN,Brooklyn,nets,Eastern,BKN,Eastern,Atlantic,1610612751,Nets,000000,FFFFFF
+CHA,Charlotte,hornets,Eastern,CHA,Eastern,Southeast,1610612766,Hornets,00848E,260F54
+CHI,Chicago,bulls,Eastern,CHI,Eastern,Central,1610612741,Bulls,C60033,000000
+CLE,Cleveland,cavaliers,Eastern,CLE,Eastern,Central,1610612739,Cavaliers,860038,002D62
+DAL,Dallas,mavericks,Western,DAL,Western,Southwest,1610612742,Mavericks,0063AF,BAC4CA
+DEN,Denver,nuggets,Western,DEN,Western,Northwest,1610612743,Nuggets,559FD6,006BB7
+DET,Detroit,pistons,Eastern,DET,Eastern,Central,1610612765,Pistons,EC003D,0058A6
+GSW,Golden State,warriors,Western,GSW,Western,Pacific,1610612744,Warriors,0068B3,FFC423
+HOU,Houston,rockets,Western,HOU,Western,Southwest,1610612745,Rockets,C60033,000000
+IND,Indiana,pacers,Eastern,IND,Eastern,Central,1610612754,Pacers,001D4A,FEAC2D
+LAC,Los Angeles,clippers,Western,LAC,Western,Pacific,1610612746,Clippers,00559A,EC003D
+LAL,Los Angeles,lakers,Western,LAL,Western,Pacific,1610612747,Lakers,FEA927,42186E
+MEM,Memphis,grizzlies,Western,MEM,Western,Southwest,1610612763,Grizzlies,182A48,4C78AD
+MIA,Miami,heat,Eastern,MIA,Eastern,Southeast,1610612748,Heat,98002E,F88D1D
+MIL,Milwaukee,bucks,Eastern,MIL,Eastern,Central,1610612749,Bucks,C41230,003815
+MIN,Minnesota,timberwolves,Western,MIN,Western,Northwest,1610612750,Timberwolves,#003F70,006F42
+NOP,New Orleans,pelicans,Western,NOP,Western,Southwest,1610612740,Pelicans,#002B5C,B4975A
+NYK,New York,knicks,Eastern,NYK,Eastern,Atlantic,1610612752,Knicks,F3571F,0067B2
+OKC,Oklahoma City,thunder,Western,OKC,Western,Northwest,1610612760,Thunder,FDBB30,F05133
+ORL,Orlando,magic,Eastern,ORL,Eastern,Southeast,1610612753,Magic,006BB7,BAC4CA
+PHI,Philadelphia,sixers,Eastern,PHI,Eastern,Atlantic,1610612755,Sixers,EC003D,00559A
+PHX,Phoenix,suns,Western,PHX,Western,Pacific,1610612756,Suns,E45F1F,F89F1B
+POR,Portland,blazers,Western,POR,Western,Northwest,1610612757,Trail Blazers,DE2032,BAC4CA
+SAC,Sacramento,kings,Western,SAC,Western,Pacific,1610612758,Kings,542E91,BAC4CA
+SAS,San Antonio,spurs,Western,SAS,Western,Southwest,1610612759,Spurs,#BA24CA,000000
+TOR,Toronto,raptors,Eastern,TOR,Eastern,Atlantic,1610612761,Raptors,C60033,BAC4CA
+UTA,Utah,jazz,Western,UTA,Western,Northwest,1610612762,Jazz,#002A5C,004812
+WAS,Washington,wizards,Eastern,WAS,Eastern,Southeast,1610612764,Wizards,002A5B,E21836
