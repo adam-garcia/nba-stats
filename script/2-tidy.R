@@ -8,7 +8,7 @@ nba <- read_feather("data/nba.feather")
 
 # Now we'll construct our longitudinal dataset of players consecutive seasons
 
-nba %>% 
+debut <- nba %>% 
   distinct(season, player, player_id, exp) %>% 
   arrange(player, season) %>% 
   group_by(player) %>% 
@@ -24,4 +24,22 @@ nba %>%
   ungroup() %>% 
   filter(n > 4) %>% 
   select(player_id, season, rookie_szn) %>% 
-  left_join(nba)
+  left_join(nba) %>% 
+  gather(metric, value, min:plus_minus)
+
+# Write to disk
+debut %>% 
+  split(.$season) %>%
+  walk(function(s){
+    split(s, s$metric) %>% 
+      walk(function(m){
+        yr <- m %>% 
+          pull(season) %>% 
+          .[1]
+        mt <- m %>% 
+          pull(metric) %>% 
+          .[1]
+        m %>% 
+          write_csv(glue("data/debut/{yr}_{mt}.csv"))
+      })
+  })

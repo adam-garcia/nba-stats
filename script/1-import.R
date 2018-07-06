@@ -213,7 +213,8 @@ nba <- player_games %>%
   ungroup() %>% 
   group_by(teamid, season) %>% 
   mutate(team_game_n = n(),
-         team_win_pct = sum(win_game) / team_game_n) %>% 
+         team_win_pct = sum(win_game) / team_game_n,
+         plus_minus = as.numeric(plus_minus)) %>% 
   ungroup() %>%
   select(season_id, player_id, player, team_abr, game_id, game_date, opp_abr, 
          everything()) %>% 
@@ -232,5 +233,6 @@ nba %>%
     id <- s %>% 
       pull(season) %>% 
       .[1]
-    write_csv(s, glue("data/{id}.csv"))
+    s %>% 
+      write_csv(glue("data/games/{id}.csv"))
   })
