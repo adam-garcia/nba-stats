@@ -116,6 +116,7 @@ nba_rosters <- nba_rosters_in %>%
   ) %>% 
   select(teamid, season, player_id, player, birth_date, height, everything(), -feet, -inches) %>% 
   distinct(player_id, season, .keep_all = T) %>% 
+  left_join(nba_teams) %>% 
   group_by(teamid, season) %>%
   mutate(team_players = n())
 
